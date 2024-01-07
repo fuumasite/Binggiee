@@ -57,10 +57,11 @@ footer p {
     left: 0;
     bottom: 0;
     width: 100%;
+    margin-top: 25px;
   }
 
   #footer p {
-    line-height: 60px; /* Sesuaikan dengan tinggi footer untuk tengah vertikal */
+
     margin: 0;
     text-align: center;
   }
