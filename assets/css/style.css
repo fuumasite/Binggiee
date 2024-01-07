@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Inter&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    
+}
+
+nav .nama {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+section {
+    padding-top: 60px;
+}
+
+.content .mengetik {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 40px;
+}
+
+
+.about img {
+    border-radius: 50%;
+}
+
+.about .gambar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.about h1, .contact h1, .portfolio h1 {
+    font-weight: bolder;
+}
+
+
+
+a {
+    color: black;
+}
+
+.contact ul li {
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-family: 'Gochi Hand', cursive;
+}
+
+#footer {
+    height: 60px; /* Sesuaikan dengan tinggi footer */
+    background-color: #f8f9fa; /* Warna latar belakang footer */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  #footer p {
+    line-height: 60px; /* Sesuaikan dengan tinggi footer untuk tengah vertikal */
+    margin: 0;
+    text-align: center;
+  }
+
+  @media (min-width: 992px) { 
+    .contact {
+        padding: 50px;
+    }
+    .about .isi {
+        padding: 50px;
+    }
+   }
+
+   @media (min-width: 768px) { 
+    
+    }

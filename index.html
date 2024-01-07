@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hi, i'm Binggie Rashel Prasetyo</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="./assets/bootstrap-5.3.2/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiaryfixed-top">
+      <div class="container-md">
+        <a class="navbar-brand" href="#"><span class="nama">Binggiee</span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <a href="https://www.instagram.com/inibinggiee_/">@inibinggiee_</a>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- isi content -->
+    <section class="content">
+      <div class="container-md">
+        <div class="row align-items-center">
+          <div class="col-sm">
+            <span id="mengetik" class="mengetik"></span>
+            <p>
+              Saya adalah seorang pelajar, yang memiliki kesenangan dalam membuat website dan juga senang dalam bermain gitar dan olahraga voli. <br> Moto dalam hidup saya itu adalah <i><u><b>"kegagalan adalah proses dari sebuah keberhasilan"</b></u></i>
+            </p>
+            <p>Lihat <a href="portfolio.html"><b><u>Portfolio</u></b></a> Saya dan juga <a href="https://drive.google.com/file/d/1clC3KkJ7m3Mx-zmSUE_5ENDIQ7HpC14Q/view?usp=drive_link"><u><b>Unduh CV</b></u></a> Saya</p>
+          </div>
+          <div class="col-sm text-center">
+            <img src="./assets/img/me.jpg" width="300px" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="fixed-bottom" id="footer">
+        <p>&copy; 2024 Binggie Rashel Prasetyo, All rights reserved</p>
+      </footer>
+    <script src="./assets/bootstrap-5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed("#mengetik", {
+        strings: ["Hi, Nama saya Binggie Rashel Prasetyo", 
+        "Saya adalah seorang pelajar",
+        "Hobi saya bermain gitar dan voli"],
+        typeSpeed: 50,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
